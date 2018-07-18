@@ -3,26 +3,21 @@
 
     angular
         .module('mitchapp')
-        .controller('HomeController', HomeController);
+        .controller('AccesoriesController', AccesoriesController);
 
-    HomeController.$inject = [
+    AccesoriesController.$inject = [
         '$state'
     ];
 
 
-    function HomeController(
+    function AccesoriesController(
         $state
     ) {
         var vm = this;
         vm.acceder = acceder;
-        vm.home = home;
 
-        console.log("Cargo el home");
+        console.log("Cargo los accesorios");
 
-        function home() {
-          console.log("Pagina de Inicio");
-          $state.go('home');
-        }
 
         function acceder() {
             console.log("HOLA MARIA :)");

@@ -14,14 +14,13 @@
         $state
     ) {
         var vm = this;
-        vm.acceder = acceder;
+        vm.accesorios = accesorios;
 
         console.log("Cargo el home");
 
-
-        function acceder() {
+        function accesorios() {
             console.log("HOLA MARIA :)");
-            $state.go('login');
+            $state.go('accesorios');
         }
 
     }

@@ -33,7 +33,7 @@
   display: block;
   text-indent: 5px;
   font-size: 3em;
-  font-family: 'Ubuntu-Regular';
+  font-family: 'Pacifico', cursive;
 }
 
 .rw-words {
@@ -55,7 +55,7 @@
 }
 
 .rw-words-1 span {
-  font-family: 'Oxygen-Regular';
+  font-family: 'Times New Roma';
   font-size: 1.2em;
   -webkit-animation: rotateWordsFirst 18s linear infinite 0s;
   -moz-animation: rotateWordsFirst 18s linear infinite 0s;
@@ -70,7 +70,7 @@
   font-style: italic;
   text-indent: 5px;
   color: #F67777;
-  font-family: 'Ubuntu-Regular';
+  font-family: 'Time New Roma';
   -webkit-animation: rotateWordsSecond 18s ease-in infinite 0s;
   -moz-animation: rotateWordsSecond 18s ease-in infinite 0s;
   -o-animation: rotateWordsSecond 18s ease-in infinite 0s;

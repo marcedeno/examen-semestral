@@ -11,9 +11,8 @@ a{color:inherit;text-decoration:none}
 
 #backgroundimage {
 	position: absolute;
-  height: 567px;
-  width: 701px;
-	left: 665px;
+  height: 634px;
+  width: 1366px;
 	top: 1px;
 }
 
@@ -42,8 +41,7 @@ a{color:inherit;text-decoration:none}
 	font-size: 1rem;
 	line-height: 1.5;
 	height: 49px;
-	color: white;
-	background-color: transparent;
+	background-color: white;
 	background-clip: padding-box;
 	border: 1px solid #ced4da;
 	border-radius: 5rem;
@@ -82,9 +80,9 @@ a{color:inherit;text-decoration:none}
 	margin:auto;
 	max-width:675px;
 	min-height:567px;
-	right: 695px;
+	left: 25%;
 	position:absolute;
-	top: 1px;
+	top: 33px;
 	background:url(../../img/iniciar.jpg) no-repeat center;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }

@@ -37,8 +37,8 @@
     </md-card>
 </div> -->
 
-<img id="backgroundimage" src="img/moda.jpg">
-<div class="login-wrap">
+<img id="backgroundimage" src="img/fondo.jpg">
+<div class="login-wrap" style="background-image: url('img/moda.jpg');">
   <div class="login-html">
     <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Iniciar Sesión</label>
     <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Registrarme</label>
@@ -56,7 +56,7 @@
         </div>
         <div class="group gen1">
           <label for="gen" class="label">Género</label>
-          <select class="genero" id="gen1" ng-model="gen_user">
+          <select class="genero" id="gen1" ng-model="gen_user" value"Seleccionar">
             <option>Femenino</option>
             <option>Maculino</option>
           </select>

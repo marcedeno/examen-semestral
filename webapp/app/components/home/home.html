@@ -18,7 +18,6 @@
   </div>
 </div> -->
 
-
 <!-- Banner de Presentación -->
 
 <div class="banner" style="background-image: url('img/banner.jpg');">
@@ -27,15 +26,14 @@
     <!-- Header -->
     <header id="header">
       <div class="inner">
-        <a href="index.html" class="logo">buyClothes</a>
+        <a ng-click="vm.home()" class="logo">buyClothes</a>
         <nav id="nav">
-          <a href="index.html">Inicio</a>
+          <a ng-click="vm.home()">Inicio</a>
           <a ng-click="vm.acceder()">Acceder</a>
         </nav>
       </div>
     </header>
     <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-
 
     <section class="rw-wrapper">
       <h1 class="rw-sentence">
@@ -57,4 +55,3 @@
     </section>
   </div>
 </div>
-
