@@ -7,7 +7,14 @@
             'ngMaterial',
             'ngStorage',
             'ui.bootstrap',
-            'aa.formExtensions'
-        ]);
+            'aa.formExtensions',
+            'firebase'
+        ])
+
+        .run(function() {
+        })
+
+        .config(function() {
+        });
 
 })();

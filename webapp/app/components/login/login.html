@@ -48,18 +48,11 @@
       <div class="sign-in-htm">
         <div class="group">
           <label for="user" class="label">Usuario</label>
-          <input id="user" type="text" class="input" ng-model="login_user">
+          <input id="user" type="text" class="input" ng-model="vm.login_user">
         </div>
         <div class="group">
           <label for="pass" class="label">Contraseña</label>
-          <input id="pass" type="password" class="input" data-type="password" ng-model="pass_user">
-        </div>
-        <div class="group gen1">
-          <label for="gen" class="label">Género</label>
-          <select class="genero" id="gen1" ng-model="gen_user" value"Seleccionar">
-            <option>Femenino</option>
-            <option>Maculino</option>
-          </select>
+          <input id="pass" type="password" class="input" data-type="password" ng-model="vm.pass_user">
         </div>
         <div class="group registrar">
           <input class="button" value="Aceptar" ng-click="vm.login()">
@@ -70,29 +63,29 @@
       <div class="sign-up-htm">
         <div class="group user">
           <label for="user" class="label">Usuario</label>
-          <input id="user" type="text" class="input" ng-model="new_user">
+          <input id="user" type="text" class="input" ng-model="vm.new_user">
         </div>
         <div class="group pass">
           <label for="pass" class="label">Contraseña</label>
-          <input id="pass" type="password" class="input" data-type="new_pass">
+          <input id="pass" type="password" class="input" ng-model="vm.new_pass">
         </div>
         <div class="group correo">
           <label for="pass" class="label">Correo Electrónico</label>
-          <input id="pass" type="text" class="input" ng-model="user_email">
+          <input id="pass" type="text" class="input" ng-model="vm.user_email">
         </div>
         <div class="group age">
           <label for="age" class="label">Edad</label>
-          <input id="age" type="text" class="input" data-type="age" ng-model="age_user">
+          <input id="age" type="text" class="input" data-type="age" ng-model="vm.age_user">
         </div>
         <div class="group gen">
           <label for="gen" class="label">Género</label>
-          <select class="genero" id="gen2" ng-model="new_ge_user">
-            <option>Femenino</option>
-            <option>Maculino</option>
+          <select class="genero" id="gen2" ng-model="vm.genero_user">
+            <option value="F">Femenino</option>
+            <option value="M">Maculino</option>
           </select>
         </div>
         <div class="group registrar">
-          <input type="submit" class="button" value="Aceptar" ng-click="ctrl.registrarme()">
+          <input type="submit" class="button" value="Aceptar" ng-click="vm.registry()">
         </div>
       </div>
     </div>
